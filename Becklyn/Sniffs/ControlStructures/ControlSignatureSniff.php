@@ -17,12 +17,12 @@ class Becklyn_Sniffs_ControlStructures_ControlSignatureSniff extends PHP_CodeSni
             'tryEOL...{...}EOL...catch (...)EOL...{',
             'doEOL...{...}EOL...while (...);EOL',
             'while (...)EOL...{',
-            'for (...)EOL{',
+            'for (...)EOL...{',
             'if (...)EOL...{',
             'foreach (...)EOL...{',
-            '} else if (...)EOL...{',
-            '} elseif (...)EOL...{',
-            '} else {EOL',
+            '}EOL...else if (...)EOL...{',
+            '}EOL...elseif (...)EOL...{',
+            '}EOL...elseEOL...{',
         );
     }//end getPatterns()
 }//end class
